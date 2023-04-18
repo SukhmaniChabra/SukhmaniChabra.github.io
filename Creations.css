@@ -1,0 +1,156 @@
+body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 130%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(2, 104, 104);
+}
+
+input {
+
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: #f1f1f1;
+}
+
+.button {
+    align-items: center;
+    width: 105%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 16px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: #ff9800;
+}
+
+.submit:hover {
+    background: #e68a00;
+}
+
+.hero {
+    background-image: url();
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    align-items: right;
+}
+
+.serviceshero {
+    background-image: url(Destination.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloghero {
+    background-image: url();
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacthero {
+    background-image: url(Contact.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: .5em;
+    height: 40px;
+    background: rgba(74, 1, 77, 0.7);
+    width: 100%;
+    font-size: 120%;
+    font-weight: bold;
+    min-width: 900px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #EAEAEA;
+}
+
+nav a:visited {
+    color: #FFF;
+}
+
+nav a:hover {
+    color: #FDA27F;
+}
+
+h1 {
+    font-size: 225%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.space {
+    height: 20vh;
+}
+
+#about,
+#services,
+#blog,
+#contact {
+    background-color: #ffffff;
+    width: 60%;
+    padding-left: 6em;
+    padding-top: 70px;
+    padding-bottom: 2em;
+}
+
+footer {
+    background: rgba(153, 53, 53, 0.9);
+    width: 100%;
+    font-size: 90%;
+    text-align: center;
+    color: #EAEAEA;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1e9385;
+}
